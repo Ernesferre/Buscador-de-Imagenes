@@ -40,7 +40,7 @@ const buscarImagenes = e => {
                     <input
                         type="text"
                         className="form-control form-control-lg"
-                        placeholder="Escribir una tematica relacionada a la imagen que deseas buscar"
+                        placeholder="Ej: Animales"
                         onChange={ e => guardarTermino(e.target.value)}
                     />
                 </div>

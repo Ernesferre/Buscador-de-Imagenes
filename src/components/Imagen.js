@@ -21,8 +21,8 @@ const Imagen = ({imagen}) => {
                         href={largeImageURL}
                         target="_blank"
                         rel="noopener noreferred"
-                        className="btn btn-primary btn-block"
-                    >Card Footer</a>
+                        className="btn btn-success btn-block"
+                    >Ver Imagen</a>
 
                 </div>
 
