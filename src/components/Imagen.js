@@ -2,7 +2,7 @@ const Imagen = ({imagen}) => {
     
     // extraer las variables - Destructuring
 
-    const { largeImageURL, likes , previewURL , tags , view } = imagen;
+    const { largeImageURL, likes , previewURL , tags , views } = imagen;
 
     
     
@@ -13,7 +13,7 @@ const Imagen = ({imagen}) => {
 
                 <div className="card-body">
                     <p className="card-text">{likes} Me Gusta</p>
-                    <p className="card-text">{view} Vistas</p>
+                    <p className="card-text">{views} Vistas</p>
                 </div>
 
                 <div className="card-footer">

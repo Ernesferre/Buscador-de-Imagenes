@@ -4,7 +4,7 @@ import Error from './Error';
 const Formulario = ({guardarBusqueda}) => {
 
 
-const [ termino, guardarTermino ] = useState('');
+const [termino, guardarTermino ] = useState('');
 const [error , guardarError ] = useState(false);
 
 
